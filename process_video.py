@@ -73,7 +73,9 @@ model.overrides["iou"] = 0.45  # NMS IoU threshold
 # VIDEO_PATH = "mixkit-plane-taking-off.mp4"
 CODEC = "mp4v"
 
-ONLY_NAME = VIDEO_PATH.split(".")[0]
+ONLY_NAME = VIDEO_PATH.split(".")[-2]
+# remove /
+ONLY_NAME = ONLY_NAME.replace("/", "")
 
 # name of the video with BB
 VIDEO_OUT = f"{ONLY_NAME}_bb.mp4"
