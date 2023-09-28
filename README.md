@@ -7,4 +7,4 @@ The model trained is based on **Ultralytics YOLO V8**
 The [script train_airplane.sh](./train_airplane.sh) can be used to train a YOLO V8 model.
 
 ## Training and validation dataset
-As an example of dataset that can be used see [this one](https://universe.roboflow.com/luigi-saetta/airplanedetector)
+As an example of dataset that can be used see: [Airplane Detection Dataset](https://universe.roboflow.com/luigi-saetta/airplanedetector)
